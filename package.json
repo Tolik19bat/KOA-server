@@ -1,0 +1,15 @@
+{
+  "name": "working-with-http-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
