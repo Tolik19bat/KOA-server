@@ -14,6 +14,7 @@ app.use((ctx, next) => {
     ctx.response.set('Access-Control-Allow-Origin', '*');
     ctx.response.set('Access-Control-Allow-Methods', 'DELETE, PUT, PATCH, GET, POST');
     ctx.response.status = 204;
+    
 });
 
 app.use((ctx, next) => {
